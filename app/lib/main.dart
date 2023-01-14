@@ -19,7 +19,7 @@ class MainApp extends StatefulWidget {
 
 class _MainAppState extends State<MainApp> {
   final appRouter = getIt<AppRouter>();
-  final uiConfigtion = getIt<UIConfigtion>();
+  final uiConfiguration = getIt<UIConfiguration>();
   @override
   void initState() {
     super.initState();
@@ -46,7 +46,7 @@ class _MainAppState extends State<MainApp> {
           supportedLocales: localizedLabels.keys.toList(),
         );
       },
-      configtion: uiConfigtion,
+      configuration: uiConfiguration,
     );
   }
 }

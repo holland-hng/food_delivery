@@ -9,11 +9,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-class UIConfigtion {
+class UIConfiguration {
   final Brightness brightness;
   final LocaleType localeType;
 
-  UIConfigtion({
+  UIConfiguration({
     required this.brightness,
     required this.localeType,
   });
@@ -22,12 +22,12 @@ class UIConfigtion {
   static const themeKey = AdaptiveTheme.prefKey;
   static const modeKey = 'theme_mode';
 
-  static Future<UIConfigtion> getInstance() async {
+  static Future<UIConfiguration> getInstance({SharedPreferences? prefs}) async {
     Brightness brightness;
     LocaleType localeType;
-    final prefs = await SharedPreferences.getInstance();
+    prefs ??= await SharedPreferences.getInstance();
     try {
-      final themeDataString = prefs.getString(UIConfigtion.themeKey);
+      final themeDataString = prefs.getString(UIConfiguration.themeKey);
       final themeDataMap = json.decode(themeDataString!);
       final themeMode = AdaptiveThemeMode.values[themeDataMap[modeKey]];
       brightness = themeMode.brightness!;
@@ -36,12 +36,12 @@ class UIConfigtion {
     }
 
     try {
-      final localeDataString = prefs.getString(UIConfigtion.localeKey);
+      final localeDataString = prefs.getString(UIConfiguration.localeKey);
       localeType = localeDataString!.locale;
     } catch (e) {
       localeType = LocaleType.english;
     }
-    return UIConfigtion(
+    return UIConfiguration(
       brightness: brightness,
       localeType: localeType,
     );
@@ -58,12 +58,12 @@ abstract class UIBehavior {
 }
 
 class UIManager extends StatefulWidget {
-  final UIConfigtion configtion;
+  final UIConfiguration configuration;
   final Widget Function(ThemeData, ThemeData, Locale) builder;
   const UIManager({
     super.key,
     required this.builder,
-    required this.configtion,
+    required this.configuration,
   });
 
   @override
@@ -96,7 +96,7 @@ class _UIManagerState extends State<UIManager> implements UIBehavior {
 
   @override
   void initState() {
-    currentLocale = widget.configtion.localeType.locale;
+    currentLocale = widget.configuration.localeType.locale;
     adaptiveBuilder = (p0, p1) {
       return widget.builder(p0, p1, currentLocale);
     };
@@ -108,7 +108,7 @@ class _UIManagerState extends State<UIManager> implements UIBehavior {
     return AdaptiveTheme(
       light: ThemeData.light(),
       dark: ThemeData.dark(),
-      initial: widget.configtion.brightness.adaptiveThemeMode,
+      initial: widget.configuration.brightness.adaptiveThemeMode,
       builder: adaptiveBuilder,
     );
   }

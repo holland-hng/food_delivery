@@ -1,0 +1,8 @@
+name: food_delivery
+packages:
+  - core/**
+  - features/**
+  - app
+ide:
+  intellij:
+    enabled: false 

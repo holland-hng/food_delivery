@@ -1,0 +1,22 @@
+name: core_dependency
+description: Core dependencies
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+dependencies:
+  flutter:  
+    sdk: flutter
+  
+  cupertino_icons: ^1.0.2
+  get_it: ^7.2.0
+  get: ^4.6.5
+  injectable: ^1.5.3
+  multiple_result: ^3.1.0
+  event_bus_plus: ^0.5.0
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,48 @@
+name: core_ui
+description: Core router
+
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_svg: ^1.1.6
+  adaptive_theme:
+    git: git@github.com:hacnguyen1412/adaptive_theme.git
+    
+  flutter_sheet_localization:
+    git:
+      url: git@github.com:hacnguyen1412/flutter_sheet_localization.git
+      path: flutter_sheet_localization
+  
+
+dev_dependencies:
+
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  build_runner:
+  flutter_gen_runner:
+  flutter_sheet_localization_generator:
+    git:
+      url: git@github.com:hacnguyen1412/flutter_sheet_localization.git
+      path: flutter_sheet_localization_generator
+
+flutter:
+  uses-material-design: true
+
+  
+  assets:
+    - assets/images/
+    # - assets/fonts/
+    # - assets/icons/
+

@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Flutter Run -&gt; 'profile_feature'" type="FlutterRunConfigurationType" factoryName="Flutter">
+    <option name="filePath" value="$PROJECT_DIR$/features/profile_feature/lib/main.dart" />
+    <method v="2" />
+  </configuration>
+</component>

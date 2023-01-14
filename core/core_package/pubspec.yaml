@@ -1,0 +1,42 @@
+name: core_package
+description: A new Flutter project.
+
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  core_dependency:
+    path: '../core_dependency'
+  
+  pretty_dio_logger: ^1.1.1
+  flutter_pretty_dio_logger: ^2.0.3
+  dio_smart_retry: ^1.0.0
+  logger: ^1.1.0
+  shared_preferences: ^2.0.15
+  json_annotation: ^4.7.0
+  dio: ^4.0.6
+  retrofit: ^3.3.1
+  path_provider: ^2.0.11
+
+dev_dependencies:
+
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  build_runner:
+  injectable_generator:
+  json_serializable:
+  
+  
+flutter:
+  uses-material-design: true
+

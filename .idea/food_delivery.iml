@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/features/home_feature/ios/.symlinks/plugins/path_provider_ios/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/features/home_feature/ios/.symlinks/plugins/path_provider_ios/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/features/home_feature/ios/.symlinks/plugins/path_provider_ios/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/features/profile_feature/ios/.symlinks/plugins/shared_preferences_ios/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/features/profile_feature/ios/.symlinks/plugins/shared_preferences_ios/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/features/profile_feature/ios/.symlinks/plugins/shared_preferences_ios/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/features/home_feature/ios/.symlinks/plugins/realm/tests/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/features/home_feature/ios/.symlinks/plugins/realm/tests/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/features/home_feature/ios/.symlinks/plugins/realm/tests/build" />
+      <excludeFolder url="file://$MODULE_DIR$/features/profile_feature/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/features/profile_feature/build" />
+      <excludeFolder url="file://$MODULE_DIR$/features/profile_feature/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/app/ios/.symlinks/plugins/path_provider_ios/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/app/ios/.symlinks/plugins/path_provider_ios/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/app/ios/.symlinks/plugins/path_provider_ios/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/features/home_feature/ios/.symlinks/plugins/realm/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/features/home_feature/ios/.symlinks/plugins/realm/build" />
+      <excludeFolder url="file://$MODULE_DIR$/features/home_feature/ios/.symlinks/plugins/realm/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/features/home_feature/ios/.symlinks/plugins/shared_preferences_ios/build" />
+      <excludeFolder url="file://$MODULE_DIR$/features/home_feature/ios/.symlinks/plugins/shared_preferences_ios/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/features/home_feature/ios/.symlinks/plugins/shared_preferences_ios/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/app/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/app/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/app/ios/.symlinks/plugins/realm/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/app/ios/.symlinks/plugins/realm/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/app/ios/.symlinks/plugins/realm/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/core/core_package/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/core/core_package/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/core/core_package/build" />
+      <excludeFolder url="file://$MODULE_DIR$/app/ios/.symlinks/plugins/realm/tests/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/app/ios/.symlinks/plugins/realm/tests/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/app/ios/.symlinks/plugins/realm/tests/build" />
+      <excludeFolder url="file://$MODULE_DIR$/app/ios/.symlinks/plugins/realm/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/app/ios/.symlinks/plugins/realm/build" />
+      <excludeFolder url="file://$MODULE_DIR$/app/ios/.symlinks/plugins/realm/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/core/core_realm/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/core/core_realm/build" />
+      <excludeFolder url="file://$MODULE_DIR$/core/core_realm/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/core/core_router/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/core/core_router/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/core/core_router/build" />
+      <excludeFolder url="file://$MODULE_DIR$/app/ios/.symlinks/plugins/shared_preferences_ios/build" />
+      <excludeFolder url="file://$MODULE_DIR$/app/ios/.symlinks/plugins/shared_preferences_ios/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/app/ios/.symlinks/plugins/shared_preferences_ios/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/features/home_feature/ios/.symlinks/plugins/shared_preferences_ios/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/features/home_feature/ios/.symlinks/plugins/shared_preferences_ios/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/features/home_feature/ios/.symlinks/plugins/shared_preferences_ios/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/app/ios/.symlinks/plugins/shared_preferences_ios/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/app/ios/.symlinks/plugins/shared_preferences_ios/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/app/ios/.symlinks/plugins/shared_preferences_ios/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/core/core_dependency/build" />
+      <excludeFolder url="file://$MODULE_DIR$/core/core_dependency/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/core/core_dependency/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/features/home_feature/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/features/home_feature/build" />
+      <excludeFolder url="file://$MODULE_DIR$/features/home_feature/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/features/home_feature/ios/.symlinks/plugins/path_provider_ios/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/features/home_feature/ios/.symlinks/plugins/path_provider_ios/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/features/home_feature/ios/.symlinks/plugins/path_provider_ios/build" />
+      <excludeFolder url="file://$MODULE_DIR$/app/ios/.symlinks/plugins/path_provider_ios/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/app/ios/.symlinks/plugins/path_provider_ios/build" />
+      <excludeFolder url="file://$MODULE_DIR$/app/ios/.symlinks/plugins/path_provider_ios/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/features/home_feature/ios/.symlinks/plugins/realm/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/features/home_feature/ios/.symlinks/plugins/realm/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/features/home_feature/ios/.symlinks/plugins/realm/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/features/profile_feature/ios/.symlinks/plugins/shared_preferences_ios/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/features/profile_feature/ios/.symlinks/plugins/shared_preferences_ios/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/features/profile_feature/ios/.symlinks/plugins/shared_preferences_ios/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

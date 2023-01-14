@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/melos_app.iml" filepath="$PROJECT_DIR$/app/melos_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/core_dependency/melos_core_dependency.iml" filepath="$PROJECT_DIR$/core/core_dependency/melos_core_dependency.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/core_package/melos_core_package.iml" filepath="$PROJECT_DIR$/core/core_package/melos_core_package.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/core_realm/melos_core_realm.iml" filepath="$PROJECT_DIR$/core/core_realm/melos_core_realm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/core_router/melos_core_router.iml" filepath="$PROJECT_DIR$/core/core_router/melos_core_router.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/core_ui/melos_core_ui.iml" filepath="$PROJECT_DIR$/core/core_ui/melos_core_ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/features/home_feature/melos_home_feature.iml" filepath="$PROJECT_DIR$/features/home_feature/melos_home_feature.iml" />
+      <module fileurl="file://$PROJECT_DIR$/features/profile_feature/melos_profile_feature.iml" filepath="$PROJECT_DIR$/features/profile_feature/melos_profile_feature.iml" />
+      <module fileurl="file://$PROJECT_DIR$/melos_food_delivery.iml" filepath="$PROJECT_DIR$/melos_food_delivery.iml" />
+    </modules>
+  </component>
+</project>

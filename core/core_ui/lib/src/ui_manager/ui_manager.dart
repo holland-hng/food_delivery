@@ -13,7 +13,7 @@ class UIConfiguration {
   final Brightness brightness;
   final LocaleType localeType;
 
-  UIConfiguration({
+  const UIConfiguration({
     required this.brightness,
     required this.localeType,
   });
@@ -63,7 +63,10 @@ class UIManager extends StatefulWidget {
   const UIManager({
     super.key,
     required this.builder,
-    required this.configuration,
+    this.configuration = const UIConfiguration(
+      brightness: Brightness.dark,
+      localeType: LocaleType.english,
+    ),
   });
 
   @override

@@ -42,10 +42,6 @@ class _ProfileAppState extends State<ProfileApp> {
           supportedLocales: localizedLabels.keys.toList(),
         );
       },
-      configuration: UIConfiguration(
-        brightness: Brightness.light,
-        localeType: LocaleType.english,
-      ),
     );
   }
 }

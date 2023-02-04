@@ -11,14 +11,13 @@ final getIt = GetIt.instance;
   preferRelativeImports: true,
   asExtension: false,
 )
-Future<void> configureDependencies({GetIt? di}) async {
-  final isFromMainApp = di != null;
-  final internalGetIt = di ?? getIt;
-  if (isFromMainApp) {
-    //do nothing
-  } else {
+Future<void> configureDependencies({GetIt? mainGetIt}) async {
+  final isRunFromModule = mainGetIt == null;
+  final internalGetIt = mainGetIt ?? getIt;
+
+  if (isRunFromModule) {
     List<Future> listConfig = [
-      core_package.configureDependencies(di: internalGetIt),
+      core_package.configureDependencies(mainGetIt: internalGetIt),
     ];
     await Future.wait(listConfig);
     registerAppRouter(internalGetIt);

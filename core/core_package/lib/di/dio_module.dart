@@ -7,7 +7,7 @@ import 'package:flutter_pretty_dio_logger/flutter_pretty_dio_logger.dart';
 @module
 abstract class DIOModule {
   @lazySingleton
-  Dio dio({bool isTesting = false}) {
+  Dio dio({bool enableLog = false}) {
     final dio = Dio(
       BaseOptions(
         connectTimeout: 6000,
@@ -17,7 +17,7 @@ abstract class DIOModule {
       ),
     );
 
-    if (isTesting == false) {
+    if (enableLog) {
       final prettyDioLogger = PrettyDioLogger(
         requestHeader: false,
         queryParameters: false,

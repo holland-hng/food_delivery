@@ -8,7 +8,7 @@ final getIt = GetIt.instance;
   preferRelativeImports: true,
   asExtension: false,
 )
-Future<void> configureDependencies({GetIt? di}) async {
-  final internalGetIt = di ?? getIt;
+Future<void> configureDependencies({GetIt? mainGetIt}) async {
+  final internalGetIt = mainGetIt ?? getIt;
   await $initGetIt(internalGetIt);
 }

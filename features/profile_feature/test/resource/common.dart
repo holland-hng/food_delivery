@@ -11,7 +11,7 @@ import 'common.mocks.dart';
 ])
 class $DIOModule extends DIOModule {}
 
-final Dio dio = $DIOModule().dio(isTesting: true);
+final Dio dio = $DIOModule().dio(enableLog: true);
 
 final DioAdapter dioAdapter = DioAdapter(
   dio: dio,

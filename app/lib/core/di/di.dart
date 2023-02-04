@@ -16,10 +16,10 @@ final getIt = GetIt.instance;
 )
 Future<void> configureDependencies() async {
   registerAppRouter(getIt);
-  await core_package.configureDependencies(di: getIt);
+  await core_package.configureDependencies(mainGetIt: getIt);
   List<Future> listConfig = [
-    home_feature.configureDependencies(di: getIt),
-    profile_feature.configureDependencies(di: getIt),
+    home_feature.configureDependencies(mainGetIt: getIt),
+    profile_feature.configureDependencies(mainGetIt: getIt),
   ];
 
   await Future.wait(listConfig);

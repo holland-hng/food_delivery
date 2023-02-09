@@ -4,6 +4,7 @@ import 'package:flutter_sheet_localization/flutter_sheet_localization.dart';
 
 part 'localization.g.dart';
 
+//https://docs.google.com/spreadsheets/d/11zNzNxX5WAgk95Xl0fX94dafrvN4yqqDqw2HYhf5qFA/edit#gid=0
 @SheetLocalization("11zNzNxX5WAgk95Xl0fX94dafrvN4yqqDqw2HYhf5qFA", "0",
     1) // <- See 1. to get docId and sheetId
 // the `1` is the generated version. You must increment it each time you want to regenerate
